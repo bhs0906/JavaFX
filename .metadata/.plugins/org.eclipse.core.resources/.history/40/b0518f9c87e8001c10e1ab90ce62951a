@@ -1,0 +1,23 @@
+package P891;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+
+public class RootController implements Initializable {
+
+	@FXML private Slider;
+	@FXML private Label;
+
+	
+	@Override
+	public void initialize(URL location, ResourceBundle resources) {
+		Slider.valueProperty().addListener(new ChangeListener<Number>() {
+			public void changed(ObservableValue<? extends Number oldValue, Numbrrt newValue){
+				label.setFont(new Font(newValue.doubleValue()))
+				});
+			}
+		}
+			

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<VBox prefHeight="200.0" prefWidth="300.0" spacing="10.0" xmlns:fx="http://javafx.com/fxml"
+	  fx:controller="P892.RootController">
+   <children>
+      <Label text="textrArea1" />
+      <TextArea fx:id="textArea1" prefHeight="200.0" prefWidth="200.0" />
+      <Label text="textrArea2" />
+      <TextArea fx:id="textArea2" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</VBox>
